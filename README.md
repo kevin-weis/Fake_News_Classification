@@ -1,7 +1,7 @@
 # Fake_News_Classification
 This repository contains files for creating fake news classifiers. 
 
-The first contains data preprocessing, EDA, LDA, text-vectorization, and 6 trained models. 
+The first set of files (fake_news_EDA_visualizations and fake_news_classification_model) contains data preprocessing, EDA, LDA, text-vectorization, and 6 trained models. 
 
 Preprocessing involved replacing null values with blank spaces and ensuring that I was working with a balanced dataset.
 
@@ -15,4 +15,4 @@ I explored three kinds of models: Logistic Regression, Random Forest, and SGD Cl
 
 
 
-The second file uses TensorFlow to create a Dense Sequential Network, a CNN network, a hybrid CNN-RNN, and a Bidirectional LSTM network. I used functions provided by keras and tensorflow to preprocess the text, applying tokenization and padding. Overall, the networks that used LSTM cells saw the best performance (the hybrid CNN-RNN and the Bidirectional LSTM network); however, the Bidirectional LSTM network seemed more prone to overfitting. 
+The other file (fakenews_DeepLearning) uses TensorFlow to create a Dense Sequential Network, a CNN network, a hybrid CNN-RNN, and a Bidirectional LSTM network. I used functions provided by keras and tensorflow to preprocess the text, applying tokenization and padding. Overall, the networks that used LSTM cells saw the best performance (the hybrid CNN-RNN and the Bidirectional LSTM network); however, the Bidirectional LSTM network seemed more prone to overfitting. 
